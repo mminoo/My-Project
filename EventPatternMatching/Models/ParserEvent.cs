@@ -10,6 +10,7 @@ namespace EventPatternMatching.Models
     /// and calculate all fault which is happend.
     /// </summary>
     public class ParserEvent : IEventCounter
+
     {
         #region GetEventCount
         /// <summary>

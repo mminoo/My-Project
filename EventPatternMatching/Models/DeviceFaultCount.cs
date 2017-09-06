@@ -23,6 +23,7 @@ namespace EventPatternMatching.Models
 
 	public class EventPatternMatchingContext : DbContext
 	{
+        
 		public EventPatternMatchingContext(DbContextOptions<EventPatternMatchingContext> options)
 			: base(options)
 		{
